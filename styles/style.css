@@ -1,3 +1,9 @@
+body{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+   
+}
+
 .container{
    text-align: center;
    width: 100%;
@@ -5,13 +11,73 @@
    background-image: url('../images/banner-image.png');
    background-repeat: no-repeat;
    background-position: center;
-
-   
-
+   opacity: 0.9;
+ 
 }  
 
-h1 {
-    margin-top: 200px;
+.banner-title{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
     color: #FFFFFF;
+   
+
+}
+
+.banner-title2{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
     font-size: 72px;
+    color: #FFFFFF;
+    z-index: 3;
+   
+
+}
+
+/* header styles end */
+
+/* all-categories styles start*/
+
+.categories{
+    text-align: center;
+    justify-content: center;
+}
+
+.categories-title{
+    font-size: 88px;
+    color: #FF0000;
+}
+
+.categories-title3{
+    font-size: 48px;
+    color: #070211;
+    font-family: 500;
+    margin-top: 0;
+}
+
+.categories-title2{
+    font-size: 24px;
+    color: #FF0000;
+
+}
+
+.all-categories-img{
+    background-image: url('../images/new-year-photo.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+}
+
+/* midnight party style start */
+
+.contaier-midnight-party{
+    font-size: 64px;
+    color: #FFFFFF;
+    background-image: url('../images/party.png');
+    background-repeat: no-repeat;
 }
