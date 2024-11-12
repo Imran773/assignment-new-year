@@ -236,3 +236,75 @@ body{
 .right-column-description{
     color: #757575;
 }
+
+
+/* holiday section style start */
+
+
+
+.holiday-section{
+    text-align: center;
+    margin: 200px;
+}
+
+.holiday-title{
+    font-size: 24px;
+    color: #070211;
+    font-weight: 400;
+    
+}
+
+.holiday-title2{
+    font-size: 72px;
+    color: #070211;
+    margin-top: 0px;
+}
+
+.holiday-description{
+    font-size: 20px;
+    color: #757575;
+   
+    margin-top: 0px;
+}
+
+
+/* image section start */
+
+.grid-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+}
+
+.img1{
+    position: relative;
+    width: 100%;
+    
+    
+    
+}
+
+.img2{
+    position: absolute;
+    left: 64.8%;
+    top: 0%;
+  
+
+}
+
+.img3{
+    position: absolute;
+    top: 64.8%;
+    z-index: -1;
+
+}
+
+.img4{
+    position: absolute;
+    left: 54%;
+    top: 11%;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+}
