@@ -1,7 +1,7 @@
 body{
     font-family: "Merriweather", serif;
     font-weight: 900;
-   
+    
 }
 
 .banner-new{
@@ -124,11 +124,11 @@ body{
     background-color: #eeeee4;
     width: 1320px;
     height: 482px;
-    margin-left: 220px;
-    margin-top: 100px;
+    margin: 0 auto;
     text-align: center;
-    top: 100px;
+    margin-top: 50px;
     position: relative;
+    max-width: ;
 }
 
 .place-date{
@@ -163,11 +163,14 @@ body{
     margin-top: 200px;
 }
 
+.column-section{
+    margin: 0 auto;
+}
+
 .column-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 150px;
     width: 1320px;
     height: 463px;
     
